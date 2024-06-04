@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kuros\\source\\repos\\BOOKSTATION\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F328F31-B423-4142-A89B-4AC92D9374A3}|bookstation.client\\bookstation.client.esproj|c:\\users\\kuros\\source\\repos\\bookstation\\bookstation.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{9F328F31-B423-4142-A89B-4AC92D9374A3}|bookstation.client\\bookstation.client.esproj|solutionrelative:bookstation.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F328F31-B423-4142-A89B-4AC92D9374A3}|bookstation.client\\bookstation.client.esproj|c:\\users\\kuros\\source\\repos\\bookstation\\bookstation.client\\src\\componentes\\tablalibros.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{9F328F31-B423-4142-A89B-4AC92D9374A3}|bookstation.client\\bookstation.client.esproj|solutionrelative:bookstation.client\\src\\componentes\\tablalibros.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F328F31-B423-4142-A89B-4AC92D9374A3}|bookstation.client\\bookstation.client.esproj|c:\\users\\kuros\\source\\repos\\bookstation\\bookstation.client\\src\\componentes\\modallibros.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{9F328F31-B423-4142-A89B-4AC92D9374A3}|bookstation.client\\bookstation.client.esproj|solutionrelative:bookstation.client\\src\\componentes\\modallibros.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F328F31-B423-4142-A89B-4AC92D9374A3}|bookstation.client\\bookstation.client.esproj|c:\\users\\kuros\\source\\repos\\bookstation\\bookstation.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{9F328F31-B423-4142-A89B-4AC92D9374A3}|bookstation.client\\bookstation.client.esproj|solutionrelative:bookstation.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F328F31-B423-4142-A89B-4AC92D9374A3}|bookstation.client\\bookstation.client.esproj|c:\\users\\kuros\\source\\repos\\bookstation\\bookstation.client\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9F328F31-B423-4142-A89B-4AC92D9374A3}|bookstation.client\\bookstation.client.esproj|solutionrelative:bookstation.client\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F328F31-B423-4142-A89B-4AC92D9374A3}|bookstation.client\\bookstation.client.esproj|c:\\users\\kuros\\source\\repos\\bookstation\\bookstation.client\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{9F328F31-B423-4142-A89B-4AC92D9374A3}|bookstation.client\\bookstation.client.esproj|solutionrelative:bookstation.client\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F328F31-B423-4142-A89B-4AC92D9374A3}|bookstation.client\\bookstation.client.esproj|c:\\users\\kuros\\source\\repos\\bookstation\\bookstation.client\\.eslintrc.cjs||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{9F328F31-B423-4142-A89B-4AC92D9374A3}|bookstation.client\\bookstation.client.esproj|solutionrelative:bookstation.client\\.eslintrc.cjs||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BD56C42-4464-4626-AEFA-C947D2EE3431}|BOOKSTATION.Server\\BOOKSTATION.Server.csproj|c:\\users\\kuros\\source\\repos\\bookstation\\bookstation.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BD56C42-4464-4626-AEFA-C947D2EE3431}|BOOKSTATION.Server\\BOOKSTATION.Server.csproj|solutionrelative:bookstation.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BD56C42-4464-4626-AEFA-C947D2EE3431}|BOOKSTATION.Server\\BOOKSTATION.Server.csproj|c:\\users\\kuros\\source\\repos\\bookstation\\bookstation.server\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BD56C42-4464-4626-AEFA-C947D2EE3431}|BOOKSTATION.Server\\BOOKSTATION.Server.csproj|solutionrelative:bookstation.server\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62F0C72-EDE6-4A11-8A78-8F55D0C1AB03}|DB\\DB.csproj|c:\\users\\kuros\\source\\repos\\bookstation\\db\\libros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62F0C72-EDE6-4A11-8A78-8F55D0C1AB03}|DB\\DB.csproj|solutionrelative:db\\libros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62F0C72-EDE6-4A11-8A78-8F55D0C1AB03}|DB\\DB.csproj|c:\\users\\kuros\\source\\repos\\bookstation\\db\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62F0C72-EDE6-4A11-8A78-8F55D0C1AB03}|DB\\DB.csproj|solutionrelative:db\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 428,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.jsx",
+              "DocumentMoniker": "C:\\Users\\kuros\\source\\repos\\BOOKSTATION\\bookstation.client\\src\\App.jsx",
+              "RelativeDocumentMoniker": "bookstation.client\\src\\App.jsx",
+              "ToolTip": "C:\\Users\\kuros\\source\\repos\\BOOKSTATION\\bookstation.client\\src\\App.jsx",
+              "RelativeToolTip": "bookstation.client\\src\\App.jsx",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAFQAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-03T23:11:10.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TablaLibros.jsx",
+              "DocumentMoniker": "C:\\Users\\kuros\\source\\repos\\BOOKSTATION\\bookstation.client\\src\\componentes\\TablaLibros.jsx",
+              "RelativeDocumentMoniker": "bookstation.client\\src\\componentes\\TablaLibros.jsx",
+              "ToolTip": "C:\\Users\\kuros\\source\\repos\\BOOKSTATION\\bookstation.client\\src\\componentes\\TablaLibros.jsx",
+              "RelativeToolTip": "bookstation.client\\src\\componentes\\TablaLibros.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-03T23:10:24.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ModalLibros.jsx",
+              "DocumentMoniker": "C:\\Users\\kuros\\source\\repos\\BOOKSTATION\\bookstation.client\\src\\componentes\\ModalLibros.jsx",
+              "RelativeDocumentMoniker": "bookstation.client\\src\\componentes\\ModalLibros.jsx",
+              "ToolTip": "C:\\Users\\kuros\\source\\repos\\BOOKSTATION\\bookstation.client\\src\\componentes\\ModalLibros.jsx",
+              "RelativeToolTip": "bookstation.client\\src\\componentes\\ModalLibros.jsx",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-03T23:08:22.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\kuros\\source\\repos\\BOOKSTATION\\bookstation.client\\package.json",
+              "RelativeDocumentMoniker": "bookstation.client\\package.json",
+              "ToolTip": "C:\\Users\\kuros\\source\\repos\\BOOKSTATION\\bookstation.client\\package.json",
+              "RelativeToolTip": "bookstation.client\\package.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-03T23:06:44.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "main.jsx",
+              "DocumentMoniker": "C:\\Users\\kuros\\source\\repos\\BOOKSTATION\\bookstation.client\\src\\main.jsx",
+              "RelativeDocumentMoniker": "bookstation.client\\src\\main.jsx",
+              "ToolTip": "C:\\Users\\kuros\\source\\repos\\BOOKSTATION\\bookstation.client\\src\\main.jsx",
+              "RelativeToolTip": "bookstation.client\\src\\main.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-03T23:06:37.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": ".eslintrc.cjs",
+              "DocumentMoniker": "C:\\Users\\kuros\\source\\repos\\BOOKSTATION\\bookstation.client\\.eslintrc.cjs",
+              "RelativeDocumentMoniker": "bookstation.client\\.eslintrc.cjs",
+              "ToolTip": "C:\\Users\\kuros\\source\\repos\\BOOKSTATION\\bookstation.client\\.eslintrc.cjs",
+              "RelativeToolTip": "bookstation.client\\.eslintrc.cjs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-03T23:05:36.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\kuros\\source\\repos\\BOOKSTATION\\BOOKSTATION.Server\\Startup.cs",
+              "RelativeDocumentMoniker": "BOOKSTATION.Server\\Startup.cs",
+              "ToolTip": "C:\\Users\\kuros\\source\\repos\\BOOKSTATION\\BOOKSTATION.Server\\Startup.cs",
+              "RelativeToolTip": "BOOKSTATION.Server\\Startup.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T23:04:43.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "vite.config.js",
+              "DocumentMoniker": "C:\\Users\\kuros\\source\\repos\\BOOKSTATION\\bookstation.client\\vite.config.js",
+              "RelativeDocumentMoniker": "bookstation.client\\vite.config.js",
+              "ToolTip": "C:\\Users\\kuros\\source\\repos\\BOOKSTATION\\bookstation.client\\vite.config.js",
+              "RelativeToolTip": "bookstation.client\\vite.config.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-03T23:04:16.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kuros\\source\\repos\\BOOKSTATION\\BOOKSTATION.Server\\Program.cs",
+              "RelativeDocumentMoniker": "BOOKSTATION.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\kuros\\source\\repos\\BOOKSTATION\\BOOKSTATION.Server\\Program.cs",
+              "RelativeToolTip": "BOOKSTATION.Server\\Program.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T23:00:59.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DBContext.cs",
+              "DocumentMoniker": "C:\\Users\\kuros\\source\\repos\\BOOKSTATION\\DB\\DBContext.cs",
+              "RelativeDocumentMoniker": "DB\\DBContext.cs",
+              "ToolTip": "C:\\Users\\kuros\\source\\repos\\BOOKSTATION\\DB\\DBContext.cs",
+              "RelativeToolTip": "DB\\DBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T22:57:25.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Libros.cs",
+              "DocumentMoniker": "C:\\Users\\kuros\\source\\repos\\BOOKSTATION\\DB\\Libros.cs",
+              "RelativeDocumentMoniker": "DB\\Libros.cs",
+              "ToolTip": "C:\\Users\\kuros\\source\\repos\\BOOKSTATION\\DB\\Libros.cs",
+              "RelativeToolTip": "DB\\Libros.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T22:56:20.335Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

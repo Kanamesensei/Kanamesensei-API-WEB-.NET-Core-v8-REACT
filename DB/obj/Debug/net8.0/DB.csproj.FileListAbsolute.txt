@@ -1,0 +1,14 @@
+C:\Users\kuros\source\repos\BOOKSTATION\DB\bin\Debug\net8.0\DB.deps.json
+C:\Users\kuros\source\repos\BOOKSTATION\DB\bin\Debug\net8.0\DB.runtimeconfig.json
+C:\Users\kuros\source\repos\BOOKSTATION\DB\bin\Debug\net8.0\DB.dll
+C:\Users\kuros\source\repos\BOOKSTATION\DB\bin\Debug\net8.0\DB.pdb
+C:\Users\kuros\source\repos\BOOKSTATION\DB\obj\Debug\net8.0\DB.csproj.AssemblyReference.cache
+C:\Users\kuros\source\repos\BOOKSTATION\DB\obj\Debug\net8.0\DB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kuros\source\repos\BOOKSTATION\DB\obj\Debug\net8.0\DB.AssemblyInfoInputs.cache
+C:\Users\kuros\source\repos\BOOKSTATION\DB\obj\Debug\net8.0\DB.AssemblyInfo.cs
+C:\Users\kuros\source\repos\BOOKSTATION\DB\obj\Debug\net8.0\DB.csproj.CoreCompileInputs.cache
+C:\Users\kuros\source\repos\BOOKSTATION\DB\obj\Debug\net8.0\DB.dll
+C:\Users\kuros\source\repos\BOOKSTATION\DB\obj\Debug\net8.0\refint\DB.dll
+C:\Users\kuros\source\repos\BOOKSTATION\DB\obj\Debug\net8.0\DB.pdb
+C:\Users\kuros\source\repos\BOOKSTATION\DB\obj\Debug\net8.0\DB.genruntimeconfig.cache
+C:\Users\kuros\source\repos\BOOKSTATION\DB\obj\Debug\net8.0\ref\DB.dll

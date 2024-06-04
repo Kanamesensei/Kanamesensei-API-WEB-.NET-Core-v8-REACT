@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "EcbC7VbANR3WrT2G6IfSGS9lPTTReVsItOuwK/eElRI=",
+  "Source": "BOOKSTATION.Server",
+  "BasePath": "_content/BOOKSTATION.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\kuros\\source\\repos\\BOOKSTATION\\bookstation.client\\bookstation.client.esproj",
+      "Version": 2,
+      "Source": "bookstation.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

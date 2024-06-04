@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\BOOKSTATION.Server.props" />
+</Project>
