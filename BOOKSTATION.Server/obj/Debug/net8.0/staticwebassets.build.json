@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "EcbC7VbANR3WrT2G6IfSGS9lPTTReVsItOuwK/eElRI=",
+  "Hash": "4t/537lPl7HN11F9yOKvwu8Y9qC3STsRFygM5ixkDiI=",
   "Source": "BOOKSTATION.Server",
   "BasePath": "_content/BOOKSTATION.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\kuros\\source\\repos\\BOOKSTATION\\bookstation.client\\bookstation.client.esproj",
+      "Identity": "C:\\Users\\kuros\\OneDrive\\Escritorio\\PROYECTO\\Version 2.0 Final\\BOOKSTATION\\bookstation.client\\bookstation.client.esproj",
       "Version": 2,
       "Source": "bookstation.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",

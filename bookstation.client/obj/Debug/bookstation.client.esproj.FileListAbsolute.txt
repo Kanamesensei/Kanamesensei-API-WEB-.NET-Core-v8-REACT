@@ -1,1 +1,2 @@
 C:\Users\kuros\source\repos\BOOKSTATION\bookstation.client\obj\Debug\bookstation.client.esproj.CoreCompileInputs.cache
+C:\Users\kuros\OneDrive\Escritorio\PROYECTO\Version 2.0 Final\BOOKSTATION\bookstation.client\obj\Debug\bookstation.client.esproj.CoreCompileInputs.cache

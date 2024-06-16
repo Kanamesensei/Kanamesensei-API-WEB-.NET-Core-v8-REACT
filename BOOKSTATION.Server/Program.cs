@@ -1,60 +1,55 @@
-using DB;
+using BOOKSTATION.Server.Class;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.OpenApi.Writers;
-
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
+// Servicios
 builder.Services.AddControllers();
 
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "BOOKSTATION API", Version = "v1" });
+});
 
+// Configuracion DataMemory
 builder.Services.AddDbContext<DBContext>(options =>
-options.UseSqlServer(builder.Configuration.GetConnectionString("DBConnection"))
-);
+{
+    options.UseInMemoryDatabase("InMemoryDatabase");
+});
 
+// Registro de Servicio
+builder.Services.AddScoped<ILibrosService, LibrosService>();
 
-
+// Politica CORS
 builder.Services.AddCors(options =>
 {
-
-    options.AddPolicy("NuevaPolitica", app =>
+    options.AddPolicy("NuevaPolitica", builder =>
     {
-        app.AllowAnyOrigin()
-        .AllowAnyMethod()
-        .AllowAnyHeader();
-
+        builder.AllowAnyOrigin()
+               .AllowAnyMethod()
+               .AllowAnyHeader();
     });
 });
 
-
-
-
 var app = builder.Build();
 
-
-app.UseDefaultFiles();
-app.UseStaticFiles();
-
-// Configure the HTTP request pipeline.
+// Configuracion HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "BOOKSTATION API V1");
+    });
 }
 
-app.UseCors("NuevaPolitica");
-
 app.UseHttpsRedirection();
-
+app.UseCors("NuevaPolitica");
 app.UseAuthorization();
 
 app.MapControllers();
-
 app.MapFallbackToFile("/index.html");
 
 app.Run();

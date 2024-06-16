@@ -32,10 +32,11 @@ const App = () => {
         })
 
         if (response.ok) {
-            setMostrarModal(!mostrarModal);
+            setMostrarModal(false);
             mostrarLibros();
         }
     }
+
 
     const editarLibro = async (libro) => {
 

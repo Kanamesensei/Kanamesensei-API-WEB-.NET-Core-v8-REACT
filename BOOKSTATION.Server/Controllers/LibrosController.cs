@@ -1,8 +1,11 @@
-﻿using DB;
+﻿using BOOKSTATION.Server.Class;
+using DB;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using System.Diagnostics.Contracts;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
 
 namespace BOOKSTATION.Server.Controllers
 {
@@ -10,78 +13,63 @@ namespace BOOKSTATION.Server.Controllers
     [ApiController]
     public class LibrosController : ControllerBase
     {
-        private readonly DBContext _Context;
+        public readonly ILibrosService _librosService;
 
-        public LibrosController(DBContext context)
+        public LibrosController(ILibrosService librosService)
         {
-            _Context = context;
-
+            _librosService = librosService;
         }
 
-
-        // GET: api/Libros
+        // GET: api/Libros/Lista
         [HttpGet("Lista")]
         public async Task<ActionResult<IEnumerable<Libros>>> GetLibros()
         {
-            return await _Context.Libros.ToListAsync();
+            var libros = await _librosService.GetAllLibrosAsync();
+            return Ok(libros);
         }
 
         // GET: api/Libros/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Libros>> GetLibro(int id)
         {
-            var libro = await _Context.Libros.FindAsync(id);
-
+            var libro = await _librosService.GetLibroByIdAsync(id);
             if (libro == null)
             {
                 return NotFound();
             }
-
-            return libro;
+            return Ok(libro);
         }
 
         // POST: api/Libros
         [HttpPost]
         public async Task<ActionResult<Libros>> PostLibro(Libros libro)
         {
-            _Context.Libros.Add(libro);
-            await _Context.SaveChangesAsync();
-
-            return CreatedAtAction(nameof(GetLibro), new { id = libro.LibroID }, libro);
+            var createdLibro = await _librosService.CreateLibroAsync(libro);
+            return CreatedAtAction(nameof(GetLibro), new { id = createdLibro.LibroID }, createdLibro);
         }
 
-
-        [HttpPut]
-        [Route("Editar")]
-        public async Task<IActionResult> Editar([FromBody] Libros request)
+        // PUT: api/Libros/Editar
+        [HttpPut("Editar")]
+        public async Task<IActionResult> Editar(Libros libro)
         {
-
-            _Context.Libros.Update(request);
-            await _Context.SaveChangesAsync();
-
-            return StatusCode(StatusCodes.Status200OK, "ok");
-
+            var updated = await _librosService.UpdateLibroAsync(libro);
+            if (!updated)
+            {
+                return NotFound();
+            }
+            return Ok("Libro actualizado correctamente");
         }
+
         // DELETE: api/Libros/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteLibro(int id)
         {
-            var libro = await _Context.Libros.FindAsync(id);
-            if (libro == null)
+            var deleted = await _librosService.DeleteLibroAsync(id);
+            if (!deleted)
             {
                 return NotFound();
             }
-
-            _Context.Libros.Remove(libro);
-            await _Context.SaveChangesAsync();
-
             return NoContent();
-        }
-
-        private bool LibroExists(int id)
-        {
-            return _Context.Libros.Any(e => e.LibroID == id);
         }
     }
 }
-
