@@ -1,6 +1,8 @@
 IMPORTANTE cargar el archivo "launch.json" que se encuentra en el repositorio,
-con el objetivo de cargar Webroot, agregarlo dentro de la Solucion
-ruta VIEW_REACT/bookstation.client/.vscode
+con el objetivo de que la ruta webRoot sea correcta.
+
+agregarlo dentro de la Solucion
+RUTA ---->  VIEW_REACT/bookstation.client/.vscode
 
 Si se agrega de forma correcta este no lanzara error 
 
@@ -9,3 +11,6 @@ Si se agrega de forma correcta este no lanzara error
 
 Limpiamos y Compilamos para correr el Sistema de forma correcta.
 
+////NOTA Se realizaron cambios dentro del sistema para  carga  BD in Memory, sin la
+necesidad de utilizar el archivo BAK para las pruebas, aun y asi  estos se subieron 
+para ser revisados.
