@@ -13,4 +13,5 @@ Limpiamos y Compilamos para correr el Sistema de forma correcta.
 
 ////NOTA Se realizaron cambios dentro del sistema para  carga  BD in Memory, sin la
 necesidad de utilizar el archivo BAK para las pruebas, aun y asi  estos se subieron 
-para ser revisados.
+para ser revisados. Ademas de agregar el proyecto TEST para las pruebas unitarias de la
+API.
